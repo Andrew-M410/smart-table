@@ -9,6 +9,7 @@
  * и собирает все вложенные элементы, у которых есть атрибут data-name,
  * в удобный объект для дальнейшего доступа к этим элементам.
  */
+
 export function cloneTemplate(templateId) {
     // Находим шаблон в документе по его ID
     const template = document.getElementById(templateId);
